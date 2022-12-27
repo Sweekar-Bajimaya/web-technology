@@ -1,0 +1,32 @@
+.container{
+    width: 1080px;
+    height: 1080px;
+    border-style: solid;
+    position: relative;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+}
+.red{
+    background-color: crimson;
+    position:relative;
+    top: 10px;
+    left: 20px;
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    right: 10px;
+}
+.green{
+    background-color: chartreuse;
+    position: sticky;
+    top: 0px;
+}
+.yellow{
+    background-color: yellow;
+    position: fixed;
+    
+}
