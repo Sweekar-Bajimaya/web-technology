@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    display: flex;
+    background-color: rgb(247, 160, 19);
+    font-family: 'Itim', cursive;
+    padding: 5px;
+}
+.topbar img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+}
+.topbar nav ul {
+    margin-left: 90vh;
+    margin-top: 30px;
+}
+.topbar nav ul a {
+    color: black;
+}
+.topbar nav ul a:hover{
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.topbar nav ul li{
+    margin-left: 45px;
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+    margin-bottom: 25px; 
+}
+.main{
+    display: flex;
+    background-color: peachpuff;
+    height: 85vh;
+}
+.infocontainer{
+    font-size: larger;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    justify-content: space-around;
+    background-color: gold;
+    height: 45vh;
+    width: 90vh;
+    font-family: 'Bubblegum Sans', cursive;
+    border-radius: 5%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.hello{
+    font-size: 70px;
+    font-weight: 100;
+}
+.name{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.intro{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 100;
+}
+.imgcontainer img{
+    width: 300px;
+    height: 300px;
+    margin: 14vh 0 0 50vh;
+    border-radius: 50%;
+}
+.educationlogo{
+    width: 40px;
+    height: 40px;
+    margin: 5vh 0 0 30vh;
+}
+.contactform{
+    padding: 0 40px;
+    font-family: 'Itim', cursive;
+    padding-top: 35px;
+}
+.contactform h1{
+    font-family: 'Bubblegum Sans', cursive;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5%;
+    margin: 16px 0;
+    padding: 3px;   
+}
+.contactlogo{
+    margin: 14vh 0 0 100vh;
+    border-radius: 30%;
+}
+#emailHelp{
+    font-size: 10px;
+    color: mediumblue;
+    margin: 0 5px;
+}
+#form-check {
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.aboutcontainer{
+    font-size: larger;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    justify-content: space-around;
+    background-color: gold;
+    height: 35vh;
+    width: 90vh;
+    border-radius: 5%;
+}
+.about h1{
+    text-align: center;
+    margin: 5px 0 5px 5px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.about p{
+    font-size: 22px;
+    margin: 10px 0 5px 5px;
+    font-family: 'Itim', cursive;
+}
+.educontainer{
+    font-size: larger;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    justify-content: space-around;
+    background-color: gold;
+    height: 45vh;
+    width: 90vh;
+    font-family: 'Bubblegum Sans', cursive;
+    border-radius: 5%;
+}
+.edu h1{
+    text-align: center;
+    margin: 5px 0 5px 5px;
+    font-family: 'Bubblegum Sans', cursive;    
+}
+.edu p{
+    font-size: 22px;
+    margin: 10px 0 5px 53px;
+    font-family: 'Itim', cursive;
+}
+.edu table{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.hobbiescontainer{
+    font-size: larger;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    justify-content: space-around;
+    background-color: gold;
+    height: 45vh;
+    width: 90vh;
+    font-family: 'Bubblegum Sans', cursive;
+    border-radius: 5%;
+}
+.hobby h1{
+    text-align: center;
+    margin: 5px 0 5px 5px;
+    font-family: 'Bubblegum Sans', cursive;  
+}
+.hobby p{
+    font-size: 22px;
+    margin: 10px 0 10px 30px;
+    font-family: 'Itim', cursive;
+}
+.hobby ol{
+    font-size: 26px;
+    margin: 2px 0 0 30px;
+}
+.imgscontainer img{
+    width: 500px;
+    height: 300px;
+    margin: 14vh 0 0 25vh;
+    border-radius: 5%;
+}
+@media screen and (max-width: 480px) {
+    .topbar{
+        width: fit-content;
+        height: fit-content;
+    }
+    .topbar nav ul {
+        font-size: 12px;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .topbar nav ul li{
+        margin-left: 15px;
+        list-style: none;
+        font-size: 15px;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    .infocontainer{
+        margin: auto;
+        font-size: 15px;
+        background-color: gold;
+        height: 45vh;
+        width: fit-content;
+        font-family: 'Bubblegum Sans', cursive;
+        border-radius: 5%;
+    }
+    .aboutcontainer{
+        margin: auto;
+        font-size: 16px;
+        background-color: gold;
+        height: 49vh;
+        width: fit-content;
+        font-family: 'Bubblegum Sans', cursive;
+        border-radius: 5%;
+    }
+    .educontainer{
+        margin: 60px 0 0 50px;
+        font-size: 15px;
+        background-color: gold;
+        height: fit-content;
+        width: fit-content;
+        font-family: 'Bubblegum Sans', cursive;
+        border-radius: 5%;
+    }
+    .edu table{
+        margin-right: 30px;
+    }
+    .hobbiescontainer{
+        margin: 200px 0 0 50px;
+        font-size: 15px;
+        background-color: gold;
+        height: fit-content;
+        width: fit-content;
+        font-family: 'Bubblegum Sans', cursive;
+        border-radius: 5%;
+    }
+    .hobby{
+        margin: 50px;
+        width: 200px;
+    }
+    .contactform{
+        margin-left: 50px;
+        font-size: larger;
+    }
+    .imgcontainer img{
+        margin: 20px 0 0 60px;
+        height: 300px;
+        width: 300px;
+    }
+    .imgscontainer img{
+        width: 300px;
+        height: 100px;
+        margin: 20px 0 0 50px;
+        border-radius: 5%;
+    }
+    .edu img{
+        margin: 20px 0 0 80px;
+        height: 300px;
+        width: 300px;
+    }
+    .educationlogo{
+        margin: 20px 0 0 80px;
+        height: 10px;
+        width: 10px;
+    }
+    .contactlogo{
+        margin: 20px 0 0 100px;
+    }
+    .contactlogo img{
+        width: 100px ;
+        height: 100px;
+    }
+}

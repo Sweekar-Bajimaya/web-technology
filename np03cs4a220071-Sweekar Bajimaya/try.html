@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+      /* Add styles for the website here */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+      }
+      .menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        margin: 0 10px;
+      }
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+      }
+      main {
+        padding: 20px;
+      }
+      .card {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 8px #ccc;
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
+        width: calc(33.33% - 40px);
+      }
+      .card h3 {
+        margin: 20px 0;
+      }
+      .card img {
+        width: 100%;
+      }
+      @media (max-width: 768px) {
+        .card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">My Portfolio</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>My Latest Projects</h2>
+      <div class="card">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of project 1 goes here.</p>
+      </div>
+      <div class="card">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of project 2 goes here.</p>
+      </div>
+      <div class="card">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>Description of project 3 goes here.</p>
+      </div>
+    </main>
+  </body>
